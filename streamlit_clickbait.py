@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # -*- coding: utf-8 -*-
 """streamlit-clickbait
 
@@ -9,6 +10,8 @@ Original file is located at
 
 !pip install streamlit
 
+=======
+>>>>>>> 006055363e97679671d0c9ed7dd72fc18e888b17
 import torch
 import torch.nn.functional as F
 import streamlit as st
@@ -50,4 +53,8 @@ def predict(text):
 if st.button("Analyze"):
     sentiment, confidence = predict(text)
     st.write(f"Predicted Sentiment: **{sentiment}**")
+<<<<<<< HEAD
     st.write(f"Confidence: **{confidence:.4f}**")
+=======
+    st.write(f"Confidence: **{confidence:.4f}**")
+>>>>>>> 006055363e97679671d0c9ed7dd72fc18e888b17

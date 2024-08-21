@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pandas
 numpy
 torch
@@ -6,3 +7,13 @@ wordcloud
 matplotlib
 keras
 scikit-learn
+=======
+pandas
+numpy
+torch
+transformers
+wordcloud
+matplotlib
+keras
+scikit-learn
+>>>>>>> 006055363e97679671d0c9ed7dd72fc18e888b17
