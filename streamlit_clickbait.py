@@ -2,7 +2,7 @@ import torch
 import torch.nn.functional as F
 import streamlit as st
 from transformers import BertTokenizer, BertModel
-from bert_sentiment_model import BertClassifier  # Pastikan import model yang sudah dibuat sebelumnya
+from bert_sentiment_model import BertClassifier  
 
 # Load tokenizer dan model
 tokenizer = BertTokenizer.from_pretrained('bert-base-multilingual-uncased')
